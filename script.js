@@ -1,12 +1,19 @@
+ 
 function myFunction(){
-    var firstString = document.getElementById("firstSides").value;
-    alert(firstString);
-}
-function myFunction(){
-    var firstString = document.getElementById("secondSides").value;
-    alert(firstString);
-}
-function myFunction(){
-    var firstString = document.getElementById("thirdSides").value;
-    alert(firstString);
-}
+    var firstSide= parseInt(document.getElementById("firstSide").value);
+    var secondSide= parseInt(document.getElementById("secondSide").value);
+    var thirdSide= parseInt(document.getElementById("thirdSide").value);
+
+    var triangle=parseInt["firstSide,secondSide,thirdSide"]
+
+    if(firstSide === secondSide && firstSide === thirdSide && secondSide === thirdSide){
+        alert("this is Equilateral");
+    }
+    else if(firstSide === secondSide || firstSide === thirdSide || secondSide !== thirdSide){
+        alert("this is Isosceles");
+    }
+    else if(firstSide !== secondSide && firstSide !== thirdSide && secondSide !== thirdSide){
+        alert("this is scalene");
+    }
+    else("is not a triangle");
+};   
