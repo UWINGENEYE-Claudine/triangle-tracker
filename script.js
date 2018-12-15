@@ -4,9 +4,13 @@ function myFunction(){
     var secondSide= parseInt(document.getElementById("secondSide").value);
     var thirdSide= parseInt(document.getElementById("thirdSide").value);
 
-    
-    if(firstSide+secondSide>=firstSide || firstSide+thirdSide>=secondSide || secondSide+thirdSide>=tSide){
+    var triangle = []
 
+    triangle=parseInt(triangle.concat([firstSide,secondSide,thirdSide]));
+    if(firstSide+secondSide<=thirdSide || firstSide+thirdSide<=secondSide || secondSide+thirdSide<=firstSide){
+        alert("this is not triangle")
+        return
+    }    
     if(firstSide === secondSide && firstSide === thirdSide && secondSide === thirdSide){
         alert("this is Equilateral");
     }
@@ -16,6 +20,6 @@ function myFunction(){
     else if(firstSide !== secondSide && firstSide !== thirdSide && secondSide !== thirdSide){
         alert("this is scalene");
     }
-    else{alert("this is not triangle")};
-     }
-};   
+   else("error");
+
+};

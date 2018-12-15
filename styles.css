@@ -1,11 +1,20 @@
 .tracker{
-    background-color:blue;
-    border:1px solid black;
-    flex-direction:flex;
-    box-shadow:4px 4px 5px;
-    color:black;
+    background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTx3mnRkoi03zlqNlYscdZQqIlPZyfbbLKMj7suCSHOB_pNNxI6');
+    height:24%;
+    width:45%;
+    background-repeat:no-repeat;
+    background-size:cover;
 }
 
 body{
     background-color:;
+}
+h5{
+    margin-right:5px;
+    margin-left:5px;
+    padding:5px;
+    text-align:center;
+    font-weight:bold;
+    font-size:30px;
+    
 }
