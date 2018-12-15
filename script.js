@@ -4,18 +4,18 @@ function myFunction(){
     var secondSide= parseInt(document.getElementById("secondSide").value);
     var thirdSide= parseInt(document.getElementById("thirdSide").value);
 
-    var triangle=parseInt[firstSide,secondSide,thirdSide]; 
-    if(firstSide+secondSide>thirdSide || firstSide+thirdSide>secondSide || secondSide+thirdSide>firstSide){
+    
+    if(firstSide+secondSide>=firstSide || firstSide+thirdSide>=secondSide || secondSide+thirdSide>=tSide){
 
     if(firstSide === secondSide && firstSide === thirdSide && secondSide === thirdSide){
         alert("this is Equilateral");
     }
-    else if(firstSide === secondSide && firstSide === thirdSide || secondSide !== thirdSide){
+    else if(firstSide === secondSide || firstSide === thirdSide || secondSide === thirdSide){
         alert("this is Isosceles");
     }
-    else if(firstSide > secondSide && firstSide > thirdSide && secondSide > thirdSide){
+    else if(firstSide !== secondSide && firstSide !== thirdSide && secondSide !== thirdSide){
         alert("this is scalene");
     }
-    else("this is not triangle");
-}
+    else{alert("this is not triangle")};
+     }
 };   
