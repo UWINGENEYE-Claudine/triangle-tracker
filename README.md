@@ -23,7 +23,7 @@ every triangle must have their condition, to create it must use if&else
 ### Technologies used
 ### Contact information
 ~~~~
-if you need more information call me to 0780754761
+location Kigali-Nyarugenge
 ~~~~
 ## License and copyright information
 copyright&copy:2018 this project is type to https://https://github.com/UWINGENEYE-Claudine/triangle-tracker"target="_blank"licensed with me.
