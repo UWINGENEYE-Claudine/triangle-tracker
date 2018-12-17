@@ -1,5 +1,9 @@
+h1{
+    color:white;
+    text-align:center;
+}
 .tracker{
-    background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTx3mnRkoi03zlqNlYscdZQqIlPZyfbbLKMj7suCSHOB_pNNxI6');
+    background-image:;
     height:24%;
     width:40%;
     background-repeat:no-repeat;
@@ -7,14 +11,16 @@
 }
 
 body{
-    background-color:;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-image:url('https://cmkt-image-prd.global.ssl.fastly.net/0.1.0/ps/3599686/580/451/m1/fpnw/wm1/vector-triangle-background-.jpg?1511085906&s=b59a1dcde0f545d7ce5366a94f68e036')
 }
 h5{
     margin-right:5px;
     margin-left:5px;
     padding:5px;
     text-align:center;
-    font-weight:bold;
+    color:white;
     font-size:30px;
-    
+    text-align:center;
 }
