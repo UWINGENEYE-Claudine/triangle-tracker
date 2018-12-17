@@ -7,7 +7,7 @@ function myFunction(){
     var triangle = []
 
     triangle=parseInt(triangle.concat([firstSide,secondSide,thirdSide]));
-    if(firstSide+secondSide<=thirdSide || firstSide+thirdSide<=secondSide || secondSide+thirdSide<=firstSide){
+    if(firstSide+secondSide<=thirdSide || firstSide+thirdSide<=secondSide || secondSide+thirdSide<=firstSide){  
         alert("this is not triangle")
         return
     }    
@@ -21,5 +21,5 @@ function myFunction(){
         alert("this is scalene");
     }
    else("error");
-
+   
 };
