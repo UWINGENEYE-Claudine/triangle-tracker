@@ -21,5 +21,5 @@ function myFunction(){
         alert("this is scalene");
     }
    else("error");
-   
+
 };
