@@ -2,12 +2,22 @@ h1{
     color:white;
     text-align:center;
 }
+p{
+    color:white;
+    text-align:center;
+}
+h2{
+    color:white;
+    text-align:center;
+}
+h4{
+    color:white; 
+    text-align:center; 
+}
 .tracker{
-    background-image:;
-    height:24%;
+    height:44%;
     width:40%;
-    background-repeat:no-repeat;
-    background-size:cover;
+    float:left;
 }
 
 body{
@@ -16,11 +26,9 @@ body{
     background-image:url('https://cmkt-image-prd.global.ssl.fastly.net/0.1.0/ps/3599686/580/451/m1/fpnw/wm1/vector-triangle-background-.jpg?1511085906&s=b59a1dcde0f545d7ce5366a94f68e036')
 }
 h5{
-    margin-right:5px;
-    margin-left:5px;
+    margin-right:15px;
     padding:5px;
-    text-align:center;
     color:white;
     font-size:30px;
-    text-align:center;
+    padding-bottom:5px;
 }
