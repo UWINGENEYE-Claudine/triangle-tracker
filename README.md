@@ -26,4 +26,4 @@ every triangle must have their condition, to create it must use if&else
 location Kigali-Nyarugenge
 ~~~~
 ## License and copyright information
-copyright&copy:2018 this project is type to https://https://github.com/UWINGENEYE-Claudine/triangle-tracker"target="_blank"licensed with me.
+copyright&copy:2018 this project is type to https://github.com/UWINGENEYE-Claudine/triangle-tracker"target="_blank"licensed with me.
